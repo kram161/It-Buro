@@ -1,0 +1,84 @@
+body {
+    background:url("../image/Cloud.png");
+    background-size:cover;
+    height:100vh;
+}
+.menu-list {
+    margin-top:50px;
+}
+.menu-list ul{
+    display:flex;
+    padding:0;
+}
+.menu-list li{
+    display:flex;
+    padding-right:10px;
+}
+.menu-list a{
+    border-bottom:1px solid #ffffff;
+    line-height: 20px;
+    color:#ffffff;
+    font-size:12px;
+}
+.menu-list a:hover{
+    color: #7f7f7f;
+    border:none;
+    text-decoration: none;
+    transition:0.5s;
+}
+.main-inf{
+    color:#ffffff;
+    font-size:12px;
+    margin-top:20px;
+}
+.main-inf-title p{
+    font-size:25px;
+}
+.main-inf a{
+    text-decoration:none;
+    color:#ffffff;
+    border-bottom:1px solid #ffffff;
+}
+.main-inf a:hover{
+    color: #7f7f7f;
+    border:none;
+    text-decoration: none;
+    transition:0.5s;
+}
+.main-inf-description{
+    margin-top:30px;
+}
+.double-block{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    font-size:12px;
+    margin-top:30px;
+}
+.double-block div:nth-child(1){
+    width: 32%;
+}
+.double-block div:nth-child(2){
+    width: 35%;
+    position: relative;
+}
+
+.attention-inf {
+    display:flex;
+    margin-top:30px;
+}
+
+.attention-inf div:nth-child(2){
+    margin-left:20px;
+    margin-top: 7px;
+}
+.attention-inf p{
+    width:95%
+}
+.footer-line {
+    border-top:1px solid #ffffff;
+    color: #ffffff;
+    font-size:12px;
+    margin-top:170px;
+    line-height: 60px;
+}
